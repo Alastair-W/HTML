@@ -1,0 +1,126 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover{
+    color: teal;
+}
+
+.viewportHeader{
+    width: 100%vw;
+    background-color: teal;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.viewport{
+    width: 100%vw;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.viewport:nth-of-type(even) {
+    background: #f1f1f1;
+}
+
+.headerLeft{
+    width: 40vw;
+    font-size: xx-large;
+    text-align: left;
+    vertical-align: middle;
+    color: whitesmoke;
+}
+
+.headerRight{
+    width: 40vw;
+    font-size: xx-large;
+    text-align: right;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+
+.content{
+    height: 80vh;
+    width: 40vw;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    margin-bottom: 10px;;
+}
+
+div.content:hover{
+    border-bottom: 5px solid teal;
+    background-color: lightgray;
+}
+
+div.projects:hover{
+    border-bottom: 5px solid teal;
+}
+
+.titleBox{
+    height:10vh;
+    width:100%vw;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+}
+
+.imageProfile{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid lightblue;
+}
+
+.quote{
+    font-style: italic;
+    font-size: xx-large;
+    
+}
+
+.story{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}
+
+.projects{
+    width: 25vw;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.imageProjects{
+    width: 300px;
+}
+
+.viewportFooter{
+    width: 100%vw;
+    background-color:black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.social{
+    display: inline;
+}
+
+.icon{
+    height:50px;
+}
+
+.links{
+    float: left;
+    margin:10px;
+}
